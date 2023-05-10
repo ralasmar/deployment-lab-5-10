@@ -9,7 +9,8 @@ h1{
 
 button{
     color: turquoise;
-    background-color: yellow;
+    font-size: 30px;
+    background-color: pink;
     height: 40px;
     width: 100px;
     left: 300px;
