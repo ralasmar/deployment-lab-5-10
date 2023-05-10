@@ -1,11 +1,11 @@
 function helloButton(evt){
     evt.preventDefault()
-    alert("Meow I love you")
+    alert("meow I love you")
 }
 
 function urCuteButton(evt){
     evt.preventDefault()
-    alert("Meow ur cute 2")
+    alert("meow ur cute 2")
 }
 
 let catBtn = document.querySelector('#btn1')
