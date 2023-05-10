@@ -12,4 +12,4 @@ let catBtn = document.querySelector('#btn1')
 let catBtn2 = document.querySelector('#btn2')
 
 catBtn.addEventListener('click', helloButton)
-catBtn2.addEventListener('click'. urCuteButton)
+catBtn2.addEventListener('click', urCuteButton)
