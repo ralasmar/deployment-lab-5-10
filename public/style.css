@@ -8,7 +8,8 @@ h1{
 }
 
 button{
-    color: pink;
+    color: turquoise;
+    background-color: yellow;
     height: 40px;
     width: 100px;
     left: 300px;
