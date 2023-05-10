@@ -3,4 +3,6 @@ function catButton(evt){
     alert("Meow I love you")
 }
 
-let catBtn = document.querySeelctor('button', catButton)
+let catBtn = document.querySelector('button')
+
+catBtn.addEventListener('click', catButton)
