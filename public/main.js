@@ -1,8 +1,15 @@
-function catButton(evt){
+function helloButton(evt){
     evt.preventDefault()
     alert("Meow I love you")
 }
 
-let catBtn = document.querySelector('button')
+function urCuteButton(evt){
+    evt.preventDefault()
+    alert("Meow ur cute 2")
+}
 
-catBtn.addEventListener('click', catButton)
+let catBtn = document.querySelector('#btn1')
+let catBtn2 = document.querySelector('#btn2')
+
+catBtn.addEventListener('click', helloButton)
+catBtn2.addEventListener('click'. urCuteButton)
