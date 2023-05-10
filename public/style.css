@@ -7,7 +7,18 @@ h1{
     color: palevioletred;
 }
 
-button{
+#btn1{
+    color: green;
+    border-color: pink;
+    font-size: 20px;
+    background-color: pink;
+    height: 40px;
+    width: 100px;
+    border-radius: 40px;
+    position: fixed
+}
+
+#btn2{
     color: green;
     border-color: pink;
     font-size: 20px;
