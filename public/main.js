@@ -6,6 +6,7 @@ function helloButton(evt){
 function urCuteButton(evt){
     evt.preventDefault()
     alert("meow ur cute 2")
+    Rollbar.log('user clicked ur cute button')
 }
 
 let catBtn = document.querySelector('#btn1')
