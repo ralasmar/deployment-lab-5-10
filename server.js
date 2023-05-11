@@ -22,8 +22,7 @@ rollbar.log('Hello world!')
 
 try {
     app.get('/', fakeFunction) 
-    }
-    catch (error){
+    }catch (error){
         rollbar.error(error)
     }
 
