@@ -21,11 +21,10 @@ var rollbar = new Rollbar({
 rollbar.log('Hello world!')
 
 try {
-    app.get('/', fakeFunction => {
-    })
-    .catch (error){
+    app.get('/', fakeFunction) 
+    }
+    catch (error){
         rollbar.error(error)
     }
-}
 
 app.listen(4000, () => console.log('server running on 4000'))
